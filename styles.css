@@ -32,6 +32,10 @@ div {
     padding: 0px;
 }
 
+.navegar {
+    width: 230px;
+}
+
 nav {
     background-color: #404040;
     width: 350px;
@@ -111,4 +115,20 @@ footer {
     margin: 0px;
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width: 880px) {
+
+    header{
+        height: 250px;
+    }
+
+    .navegar {
+        height: 300px;
+        padding-right: 50px;
+    }
+
+    .box{
+        margin-left: 50px;
+    }
 }
